@@ -42,15 +42,19 @@ body {
    color: var(--accent-color);
 }
 
-.site-nav a {
+.site-nav .pages {
     text-decoration-line: none;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .pages:hover,
+.site-nav .pages:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .current {
     color: var(--accent-color);
 }
 
@@ -77,6 +81,7 @@ body {
 
 .order {
     background: var(--accent-color);
+    font-family: inherit;
     width: 200px;
     height: 50px;
     font-weight: bold;
@@ -95,7 +100,8 @@ body {
 .feature .title {
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
+    text-transform: uppercase;
     color: var(--primary-text-color);
 }
 
@@ -131,6 +137,10 @@ body {
 
 /* Футер */
 
+.section-footer {
+    background-color: var(--second-background-color);
+}
+
 .logo-footer {
     text-decoration-line: none;
     font-family: Raleway;
@@ -139,7 +149,7 @@ body {
     color: var(--white-color);
 }
 
-.address {
+.site-cont-footer .address {
     text-decoration-line: none;
     font-style: normal;
     font-size: 14px;
@@ -147,15 +157,15 @@ body {
     color: var(--white-color);
 }
 
-.site-cont-footer a {
+.site-cont-footer .cont {
     text-decoration-line: none;
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
 }
 
-.site-cont-footer a:hover,
-.site-cont-footer a:focus {
+.site-cont-footer .cont:hover,
+.site-cont-footer .cont:focus {
     color: var(--accent-color);
 }
 
@@ -163,6 +173,7 @@ body {
 
 .portfolio .filter {
     background-color: #F5F4FA;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
