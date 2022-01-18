@@ -52,12 +52,12 @@ body {
 }
 
 .web {
-   font-family: Raleway, sans-serif;
-   font-weight: bold;
-   font-size: 26px;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
-   color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 
 .site-nav .pages {
@@ -67,7 +67,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    }
+}
 
 .site-nav .pages:hover,
 .site-nav .pages:focus {
@@ -239,6 +239,6 @@ body {
 .portfolio .type {
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em
-    color: var(--text-color);
+    letter-spacing: 0.03em;
+     color: var(--text-color);
 }
